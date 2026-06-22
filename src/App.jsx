@@ -94,10 +94,6 @@ function App() {
 
   return (
     <div className="main-wrapper">
-      {/* Floating Heritage Mesh Gradient Blobs */}
-      <div className="bg-mesh-blob blob-left"></div>
-      <div className="bg-mesh-blob blob-right"></div>
-
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
       
       <main className="content-section" style={{ padding: '0 0 60px 0' }}>

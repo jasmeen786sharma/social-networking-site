@@ -85,10 +85,11 @@ export default function Home({ setActiveTab }) {
             </div>
             <h1 style={{
               fontSize: 'clamp(2.5rem, 5vw, 3.8rem)',
-              fontWeight: 900,
+              fontWeight: 800,
+              color: 'var(--primary)',
               lineHeight: 1.1,
               letterSpacing: '-0.03em'
-            }} className="gradient-text">
+            }}>
               A Simple Hand Can Change a Life
             </h1>
             <p style={{
@@ -196,7 +197,7 @@ export default function Home({ setActiveTab }) {
       {/* How It Works */}
       <section style={{ padding: '60px 0', backgroundColor: 'var(--bg-secondary)' }}>
         <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ fontSize: '2.2rem', marginBottom: '16px' }} className="gradient-text">How SevaSetu Works</h2>
+          <h2 style={{ fontSize: '2.2rem', color: 'var(--primary)', marginBottom: '16px' }}>How SevaSetu Works</h2>
           <p style={{ color: 'var(--text-muted)', maxWidth: '600px', margin: '0 auto 48px', fontSize: '1.05rem' }}>
             We've built a simple, transparent channel to connect community needs directly with local volunteers and resources.
           </p>
@@ -251,7 +252,7 @@ export default function Home({ setActiveTab }) {
             marginBottom: '40px'
           }} className="section-header-flex">
             <div>
-              <h2 style={{ fontSize: '2.2rem', marginBottom: '8px' }} className="gradient-text">Urgent Community Needs</h2>
+              <h2 style={{ fontSize: '2.2rem', color: 'var(--primary)', marginBottom: '8px' }}>Urgent Community Needs</h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem' }}>These requests need immediate attention from local community members.</p>
             </div>
             <button onClick={() => setActiveTab('feed')} className="btn btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
