@@ -1,4 +1,4 @@
-# SevaSetu (세바세투) - Indian Social Helping & Community Support Network
+# SevaSetu - Indian Social Helping & Community Support Network
 
 **SevaSetu** (Bridge of Service) is a premium, highly aesthetic, multi-page web application designed for social service in India. The platform bridges the gap between individuals needing immediate support (food, clothing, healthcare, education, shelter) and local Indian donors, volunteers, and NGOs.
 
